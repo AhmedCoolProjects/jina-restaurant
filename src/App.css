@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+.jjjj {
+  width: 80%;
+  height: 400px;
+  background: transparent;
+  position: absolute;
+  bottom: -250px;
+  left: 10%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.stickers_bar {
+  width: 80%;
+  height: 100px;
+  background: red;
+  margin-left: 10%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
+.separator {
+  height: 250px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.chef_word {
+  width: 80% !important;
+  margin-left: 10% !important;
+}
+@media screen and (max-width: 800px) {
+  .chef_word {
+    width: 90% !important;
+    margin-left: 5% !important;
   }
 }
